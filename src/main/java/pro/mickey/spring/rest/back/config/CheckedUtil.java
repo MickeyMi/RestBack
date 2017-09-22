@@ -188,7 +188,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * string1 ！= string2抛出异常
+	 * string1 != string2抛出异常
 	 *
 	 * @param string1
 	 *            需要判断的值1
@@ -222,7 +222,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * integer < min || integer > max，抛出异常
+	 * integer 小于 min || integer 大于 max，抛出异常
 	 * 
 	 * @param integer
 	 *            需要判断的值1
@@ -241,7 +241,7 @@ public class CheckedUtil {
 	}
 
 	/**
-	 * integer > integer2抛出异常
+	 * integer 大于 integer2抛出异常
 	 * 
 	 * @param integer
 	 *            需要判断的值1

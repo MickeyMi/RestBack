@@ -15,7 +15,7 @@ public class RestBackException extends RuntimeException {
 	/**
 	 * @param errorCode
 	 *            错误CODE值
-	 * @param msg
+	 * @param errorMsg
 	 *            错误信息
 	 */
 	public RestBackException(int errorCode, String errorMsg) {
@@ -24,18 +24,32 @@ public class RestBackException extends RuntimeException {
 		this.errorMsg = errorMsg;
 	}
 
+	/**
+	 * @return 错误值
+	 */
 	public int getErrorCode() {
 		return errorCode;
 	}
 
+	/**
+	 * @param errorCode
+	 *            错误值
+	 */
 	public void setErrorCode(int errorCode) {
 		this.errorCode = errorCode;
 	}
 
+	/**
+	 * @return 失败信息
+	 */
 	public String getErrorMsg() {
 		return errorMsg;
 	}
 
+	/**
+	 * @param errorMsg
+	 *            失败信息
+	 */
 	public void setErrorMsg(String errorMsg) {
 		this.errorMsg = errorMsg;
 	}

@@ -5,10 +5,11 @@ import pro.mickey.spring.rest.back.config.BackCodeConfig;
 public class BackRest {
 
 	/**
-	 * 请求成功
+	 * 请求成功返回数据
 	 * 
-	 * @param body
-	 * @return
+	 * @param result
+	 *            返回数据
+	 * @return 返回封装
 	 */
 	public static <T> RestBackObj<T> success(T result) {
 		RestBackObj<T> body = new RestBackObj<T>();
@@ -20,8 +21,7 @@ public class BackRest {
 	/**
 	 * 请求成功
 	 * 
-	 * @param body
-	 * @return
+	 * @return 返回封装
 	 */
 	public static RestBack success() {
 		RestBack body = new RestBack();
@@ -30,10 +30,11 @@ public class BackRest {
 	}
 
 	/**
-	 * 请求成功
-	 * 
-	 * @param body
-	 * @return
+	 * @param code
+	 *            失败code
+	 * @param msg
+	 *            失败信息
+	 * @return 返回封装
 	 */
 	public static RestBack error(int code, String msg) {
 		RestBack body = new RestBack();

@@ -2,10 +2,9 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>pro.mickey</groupId>
 	<artifactId>rest-back</artifactId>
-	<packaging>war</packaging>
 	<version>1.0.0</version>
-	<name>rest-back Maven Webapp</name>
-	<url>https://github.com/MickeyMi/LogicallyDeleted</url>
+	<name>rest-back</name>
+	<url>https://github.com/MickeyMi/RestBack</url>
 	<description>Parameter verification</description>
 
 
@@ -30,9 +29,9 @@
 		</developer>
 	</developers>
 	<scm>
-		<connection>scm:svn:https://github.com/MickeyMi/LogicallyDeleted</connection>
-		<developerConnection>scm:git:https://github.com/MickeyMi/LogicallyDeleted.git</developerConnection>
-		<url>https://github.com/MickeyMi/LogicallyDeleted</url>
+		<connection>scm:svn:https://github.com/MickeyMi/RestBack</connection>
+		<developerConnection>scm:git:https://github.com/MickeyMi/RestBack.git</developerConnection>
+		<url>https://github.com/MickeyMi/RestBack</url>
 	</scm>
 
 	<dependencies>
